@@ -1,0 +1,19 @@
+{
+    "space": true,
+    "semicolon": false,
+    "rules": {
+        "n/prefer-global/process": "off",
+        "n/file-extension-in-import": "off",
+        "import/extensions": "off",
+        "@typescript-eslint/naming-convention": [
+            "error",
+            {
+                "selector": "variable",
+                "format": [
+                    "strictCamelCase",
+                    "UPPER_CASE"
+                ]
+            }
+        ]
+    }
+}
